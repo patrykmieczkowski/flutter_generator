@@ -8,14 +8,16 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-        title: 'Welcome to Startup Name Generator',
+        title: 'Welcome to Startup Name Generator 2',
         home: new RandomWords());
   }
 }
 
 class RandomWords extends StatefulWidget {
   @override
+
   createState() => new RandomWordsState();
+
 }
 
 class RandomWordsState extends State<RandomWords> {
